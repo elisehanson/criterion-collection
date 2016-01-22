@@ -1,0 +1,42 @@
+@font-face {
+  font-family: SuisseReg;
+  src: url(fonts/SuisseIntl-Regular-WebXL.eot) format("eot"),
+       url(fonts/SuisseIntl-Regular-WebXL.woff)format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-size: .8em;
+  font-weight: normal;
+  letter-spacing: 1;
+  font-family: "SuisseReg";
+  background:lightgrey;
+}
+
+a:link, a:active, a:visited {
+	color:black;
+	text-decoration: none;
+}
+a:hover {
+	color:black;
+}
+
+.title {
+	padding-top:10px;
+}
+
+.box {
+  width:200;
+  height:300;
+  margin:20px;
+  float:left;
+  text-align: center;
+  background-color: #fafafa;
+  padding-top: 20px;
+  transition: 500ms ease; 
+}
+
+.box:hover {
+	background-color: rgba(255, 255, 255, 0.25);
+}
