@@ -2,8 +2,6 @@
   font-family: SuisseReg;
   src: url(fonts/SuisseIntl-Regular-WebXL.eot) format("eot"),
        url(fonts/SuisseIntl-Regular-WebXL.woff)format("woff");
-  font-style: normal;
-  font-weight: normal;
 }
 
 body {
